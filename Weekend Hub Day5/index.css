@@ -1,0 +1,109 @@
+h1{
+background-color: red;
+display: inline-block;
+
+}
+span{
+background-color: blue;
+text-align: center;
+}
+nav ul li{
+display: inline-block;
+font-size: 20px;
+margin-left: 15px;
+}
+.container{
+display: flex;
+border: 2px solid green;
+padding: 20px;
+}
+.box1{
+height: 100px;
+width: 100px;
+background-color: blue;
+margin-left: 20px;
+flex: 1;
+}
+.box2{
+height: 100px;
+width: 100px;
+background-color: brown;
+flex: 1;
+}
+.box3{
+height: 100px;
+width: 100px;
+background-color: chartreuse;
+flex: 1;
+}
+
+.container1{
+    display: flex;
+    border: 2px solid green;
+    padding: 20px;
+    }
+
+    .box1{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    margin-right: 20px;
+    flex: 1;
+    }
+    .box2{
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    flex: 1;
+    }
+    .box3{
+    height: 100px;
+    width: 100px;
+    background-color: chartreuse;
+    margin-left: 20px;
+    flex: 1;
+    }
+
+.container2{
+display: flex;
+border: 2px solid green;
+padding: 20px;
+display: flex;
+align-items: flex-end;
+justify-content: end;
+}
+.firstchild{
+    border: 2px solid green;
+    margin-right: 10px;
+    padding: 10px;
+    box-shadow: rgba(25,25,25,.04) 0 0 1px 0,rgba(0,0,0,.1) 0 3px 4px 0;
+    display: flex;
+}
+.image1{
+width: 70px;
+height: 100px;
+margin-right: 10px;
+}
+.secondchild{
+    border: 2px solid green;
+    margin-right: 10px;
+    padding: 10px;
+    box-shadow: rgba(25,25,25,.04) 0 0 1px 0,rgba(0,0,0,.1) 0 3px 4px 0;
+    display: flex;
+}
+.image2{
+width: 70px;
+height: 100px;
+margin-right: 10px;
+}
+.thirdchild{
+    border: 2px solid green;
+    padding: 10px;
+    box-shadow: rgba(25,25,25,.04) 0 0 1px 0,rgba(0,0,0,.1) 0 3px 4px 0;
+    display: flex;
+}
+.image3{
+width: 70px;
+height: 100px;
+margin-right: 10px;
+}
